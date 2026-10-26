@@ -1,0 +1,71 @@
+<article class="obakyu-card">
+  <div class="card-header">
+    <span class="badge ob-blue">Roblox架空鉄道</span>
+    <span class="badge ob-red">Oライナー運行</span>
+    <h2>尾羽急電鉄（OBR）路線ネットワーク</h2>
+  </div>
+  <div class="card-body">
+    <p>尾羽原駅を中心に50駅以上の広大な路線網を誇る、Roblox最大級の鉄道シミュレーション。</p>
+    
+    <div class="route-info">
+      <h3>主要路線一覧</h3>
+      <ul class="line-list">
+        <li><span class="line-dot main-line"></span><strong>尾羽急本線</strong>：尾羽原・千鳥・新通方面を結ぶ大動脈</li>
+        <li><span class="line-dot imon-line"></span><strong>井問線</strong>：井口 〜 問屋町エリアを結ぶ主要支線</li>
+        <li><span class="line-dot local-line"></span><strong>千鳥支線・飛金線</strong>：観光地やローカル・非電化区間</li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<style>
+.obakyu-card {
+  border: 1px solid #dcdfe6;
+  border-radius: 12px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-family: "Helvetica Neue", Arial, "ひらがな角ゴ", sans-serif;
+  max-width: 600px;
+}
+.card-header .badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 6px;
+}
+.badge.ob-blue { background-color: #0052cc; }
+.badge.ob-red { background-color: #e53935; }
+
+.route-info h3 {
+  font-size: 16px;
+  margin-top: 16px;
+  border-bottom: 2px solid #0052cc;
+  padding-bottom: 4px;
+}
+.line-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+.line-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.line-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.main-line { background-color: #0052cc; }
+.imon-line { background-color: #ff9800; }
+.local-line { background-color: #4caf50; }
+</style>
